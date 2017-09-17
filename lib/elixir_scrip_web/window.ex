@@ -1,4 +1,4 @@
-defmodule ElixirScript.Web.JSON do
+defmodule ElixirScript.Web.Window do
   use ElixirScript.FFI, global: true, name: :window
 
   defexternal requestAnimationFrame(callback)
@@ -20,4 +20,8 @@ defmodule ElixirScript.Web.JSON do
   defexternal removeEventListener(type, listener)
 
   defexternal removeEventListener(type, listener, options)
+
+  defexternal fetch(input)
+
+  defexternal fetch(input, init)
 end
