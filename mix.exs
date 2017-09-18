@@ -39,7 +39,7 @@ defmodule ElixirScriptWeb.Mixfile do
 
   defp package do
     [
-      files: ["lib", "priv/**/*.*", "mix.exs", "README.md", "CHANGELOG.md"],
+      files: ["lib", "mix.exs", "README.md", "CHANGELOG.md"],
       maintainers: ["Bryan Joseph"],
       licenses: ["MIT"],
       links: %{
