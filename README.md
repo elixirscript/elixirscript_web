@@ -2,6 +2,9 @@
 
 An ElixirScript FFI Library for Web APIs
 
+For detailed documentation on the APIs exposed, check
+[MDN's Web API documentation](https://developer.mozilla.org/en-US/docs/Web/API)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
