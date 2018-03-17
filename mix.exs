@@ -4,8 +4,8 @@ defmodule ElixirScriptWeb.Mixfile do
   def project do
     [
       app: :elixir_script_web,
-      version: "0.1.0",
-      elixir: "~> 1.5",
+      version: "0.2.0",
+      elixir: "~> 1.6",
       start_permanent: Mix.env == :prod,
       deps: deps(),
       package: package(),
@@ -26,8 +26,8 @@ defmodule ElixirScriptWeb.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:elixir_script, "~> 0.30.0"},
-      {:ex_doc, "~> 0.16", only: :dev}
+      {:elixir_script, "~> 0.32"},
+      {:ex_doc, "~> 0.18", only: :dev}
     ]
   end
 
